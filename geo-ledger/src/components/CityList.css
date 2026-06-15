@@ -1,0 +1,29 @@
+.city-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 8px;
+}
+
+.city-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.city-name {
+  font-size: 0.88rem;
+  color: #94a3b8;
+}
+
+.empty-city-msg {
+  color: #475569;
+  font-size: 0.8rem;
+  margin-top: 8px;
+  padding-left: 8px;
+  font-style: italic;
+}

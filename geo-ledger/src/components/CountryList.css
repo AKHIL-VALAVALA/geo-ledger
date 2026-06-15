@@ -1,0 +1,85 @@
+.country-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.country-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.country-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.country-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.action-group {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* ── Shared button base ── */
+.btn {
+  padding: 5px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.1s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-primary {
+  background: #3b82f6;
+  color: #fff;
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.btn-edit {
+  background: rgba(255, 255, 255, 0.12);
+  color: #e2e8f0;
+}
+
+.btn-delete {
+  background: rgba(239, 68, 68, 0.25);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.35);
+}
+
+.btn-add-sub {
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.empty-msg {
+  color: #475569;
+  font-size: 0.88rem;
+  margin-top: 12px;
+  font-style: italic;
+}

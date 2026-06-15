@@ -1,0 +1,37 @@
+.state-list {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: 2px solid rgba(56, 189, 248, 0.25);
+  padding-left: 16px;
+}
+
+.state-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+
+.state-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.state-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #7dd3fc;
+}
+
+.empty-sub-msg {
+  color: #475569;
+  font-size: 0.82rem;
+  margin-top: 10px;
+  padding-left: 4px;
+  font-style: italic;
+}
